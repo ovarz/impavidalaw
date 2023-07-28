@@ -43,6 +43,8 @@
 <link rel="dns-prefetch" href="https://ajax.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com/">
 <link rel="dns-prefetch" href="https://fonts.gstatic.com/"/>
+<link rel="preconnect" href="https://www.googletagmanager.com/">
+<link rel="dns-prefetch" href="https://www.googletagmanager.com/"/>
 
 <link href="img/favicon.ico?<?php echo $anticache; ?>" rel="icon" type="image/ico"/>
 
@@ -68,5 +70,13 @@ $("body,html").bind("touchstart touchmove scroll mousedown DOMMouseScroll mousew
 <link rel="stylesheet" type="text/css" href="css/rancak.css?<?php echo $anticache; ?>"/>
 <link rel="stylesheet" type="text/css" href="css/rancak-desktop.css?<?php echo $anticache; ?>" media="(min-width:1024px)">
 </head>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WN57CMWW00"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-WN57CMWW00');
+</script>
 
 <body>
