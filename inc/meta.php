@@ -1,5 +1,5 @@
 <head>
-<title>Impavida | Advocates and Legal Consultants</title>
+<title>Impavida | Advocates & Legal Consultants</title>
 <meta charset="utf-8">
 <meta name="robots" content="index, follow">	
 <meta name="googlebot" content="all"/>
@@ -19,23 +19,23 @@
 <meta name="apple-touch-fullscreen" content="yes"/>
 <meta name="copyright" content="2023 | Impavida">
 
-<meta name="description" content="Impavida Advocates and Legal Consultants (Impavida) is a new breed of law firm that is established by three empowered women that are groomed and trained by the most notable litigation firm in Indonesia, and have combined experience of over 15 years.">
+<meta name="description" content="Impavida Advocates & Legal Consultants (Impavida) is a new breed of law firm that is established by three empowered women that are groomed and trained by the most notable litigation firm in Indonesia, and have combined experience of over 15 years.">
 <meta name="keywords" content="Advocates, Legal, Consultants"/>
 <meta name="news_keywords" content="Advocates, Legal, Consultants"/>
 
 <meta property="fb:app_id" content=""/>
 <meta property="og:type" content="article"/>
 <meta property="og:url" content="https://www.impavidalaw.com/"/>
-<meta property="og:title" content="Impavida Advocates and Legal Consultants"/>
+<meta property="og:title" content="Impavida Advocates & Legal Consultants"/>
 <meta property="og:image" content="https://www.impavidalaw.com/img/cover.jpg"/>
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1920">
 <meta property="og:image:height" content="1080">
-<meta property="og:description" content="Impavida Advocates and Legal Consultants (Impavida) is a new breed of law firm that is established by three empowered women that are groomed and trained by the most notable litigation firm in Indonesia, and have combined experience of over 15 years."/>
+<meta property="og:description" content="Impavida Advocates & Legal Consultants (Impavida) is a new breed of law firm that is established by three empowered women that are groomed and trained by the most notable litigation firm in Indonesia, and have combined experience of over 15 years."/>
 
 <meta name="twitter:image:src" content="https://www.impavidalaw.com/img/cover.jpg"/>
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:description" content="Impavida Advocates and Legal Consultants (Impavida) is a new breed of law firm that is established by three empowered women that are groomed and trained by the most notable litigation firm in Indonesia, and have combined experience of over 15 years."/>
+<meta name="twitter:description" content="Impavida Advocates & Legal Consultants (Impavida) is a new breed of law firm that is established by three empowered women that are groomed and trained by the most notable litigation firm in Indonesia, and have combined experience of over 15 years."/>
 
 <link rel="preconnect" href="https://www.otogadget.id">
 <link rel="dns-prefetch" href="https://www.otogadget.id"/>

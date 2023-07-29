@@ -33,9 +33,9 @@
     <div class="cs-image content_center">
       <?php require ($_SERVER['IL'].'img/logo.svg')?>
     </div>
-    <h1 class="cs-title"><span>Impavida |</span><span>Advocates and Legal Consultants</span></h1>
+    <h1 class="cs-title"><span>Impavida |</span><span>Advocates & Legal Consultants</span></h1>
     <h2 class="cs-info">coming soon</h2>
-	<h3 class="cs-desc hide">Impavida Advocates and Legal Consultants (Impavida) is a new breed of law firm that is established by three empowered women that are groomed and trained by the most notable litigation firm in Indonesia, and have combined experience of over 15 years.</h3>
+	<h3 class="cs-desc hide">Impavida Advocates & Legal Consultants (Impavida) is a new breed of law firm that is established by three empowered women that are groomed and trained by the most notable litigation firm in Indonesia, and have combined experience of over 15 years.</h3>
   </span>
 </div>
 
