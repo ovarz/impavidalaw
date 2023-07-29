@@ -25,7 +25,7 @@
 </style>
 
 <div class="cover-bg flex_ori thumb-loading">
-  <img alt="Cover" class="lazyload" data-original="img/cover.jpg" />
+  <img alt="Cover" class="lazyload" data-original="img/bg.jpg" />
 </div>
 
 <div class="coming-soon content_center">
