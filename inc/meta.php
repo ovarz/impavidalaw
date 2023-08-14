@@ -37,8 +37,8 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:description" content="Impavida Advocates & Legal Consultants (Impavida) is a new breed of law firm that is established by three empowered women that are groomed and trained by the most notable litigation firm in Indonesia, and have combined experience of over 15 years."/>
 
-<link rel="preconnect" href="https://www.otogadget.id">
-<link rel="dns-prefetch" href="https://www.otogadget.id"/>
+<link rel="preconnect" href="https://impavidalaw.com/">
+<link rel="dns-prefetch" href="https://impavidalaw.com/"/>
 <link rel="preconnect" href="https://ajax.googleapis.com">
 <link rel="dns-prefetch" href="https://ajax.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com/">
