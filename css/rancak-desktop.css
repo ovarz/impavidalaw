@@ -1,1 +1,9 @@
+:root, :before, :after{
+  --default-fontsize:16px;
+}
+
 .mobile-only{display:none !important; visibility:hidden; content-visibility:hidden;}
+
+nav{display:flex !important;}
+nav .menu-link:last-child{padding-right:var(--size-5);}
+.menu-home{padding-left:var(--size-5);}
