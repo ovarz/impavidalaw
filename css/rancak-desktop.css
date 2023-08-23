@@ -10,5 +10,4 @@
 nav .menu-link:last-child{padding-right:var(--size-5);}
 .menu-home{padding-left:var(--size-5);}
   
-.section-container{padding:var(--size-5) 0;}
 .section-container > .width-max{padding:0 var(--size-5);}
