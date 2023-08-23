@@ -1,3 +1,9 @@
+<button title="Back to Top" id="btt" class="content_center hide">
+  <?php require ($_SERVER['IL'].'img/icon/back-to-top.svg')?>
+</button>
+
+
+
 <noscript id="deferred-styles">
   <link rel="stylesheet" type="text/css" href="css/hold.css?<?php echo $anticache; ?>" media="print" onload="this.media='all'"/>
 </noscript>

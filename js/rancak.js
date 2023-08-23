@@ -32,13 +32,24 @@ function all_scroll(){
     var scroll_position = $(window).scrollTop();
 
     if(scroll_position >= 1){
-      $('header').addClass('header-sticky');	
+      $('header').addClass('header-sticky');
+	  $('#btt').css("display","flex");		
     }
 
     else{
       $('header').removeClass('header-sticky');	
+	  $('#btt').hide();
     }
   });  
+}
+
+
+
+function back_to_top(){
+  $('#btt').click(function(){
+	$('body,html').scrollTop(0);
+    return false;
+  });	
 }
 
 
@@ -91,6 +102,7 @@ function close_share(){
 $(document).ready(function(){
   "use strict";
   all_scroll();
+  back_to_top();
   open_sticky();
   toggle_menu();
   close_menu();
