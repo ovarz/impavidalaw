@@ -38,7 +38,7 @@ border-top-left-radius:var(--rounded-2); border-bottom-left-radius:var(--rounded
 
 
 
-header{background-color:var(--color-default-2);}
+header{background-color:var(--color-default-3);}
 .header-link, .menu-link{color:var(--bg-2) !important; fill:var(--bg-2) !important;}
 .header-link:hover, .menu-link:hover{opacity:var(--hover-opacity);}
 .impavida-logo{fill:inherit;}
@@ -48,24 +48,26 @@ header{background-color:var(--color-default-2);}
 
 
 
+.section-dark{
+  --bg-2:#203049;
+  --color-default-1:#EBEEF2;
+  --color-default-3:#FFFFFF;
+}
+
+
+
 
 
 @media screen and (min-width:0px) and (max-width:1023px){
-  nav{position:absolute; top:var(--size-6); left:0; width:100%; background-color:var(--color-default-4);}
-  nav.show-nav{display:block;}
   .menu-link:not(:first-child){border-top:1px dashed rgb(var(--color-border-light) / 34%);}
   .menu-curr{color:var(--color-default-2) !important; fill:var(--color-default-2) !important;}
   .menu-curr > span:before{background-color:var(--color-default-2) !important;}
-  .menu-toggle{opacity:1 !important;}
-  .menu-toggle-open{background-color:var(--color-default-4); padding-left:var(--size-4);}
   
   @media screen and (min-width:568px){
     nav.show-nav{display:flex !important; justify-content:center;}
 	.menu-link{border-top:0 !important;}
   }
 }
-
-
 
 
 

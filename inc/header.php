@@ -7,7 +7,7 @@
     </li>
     <li class="header-right">
       <?php require ($_SERVER['IL'].'inc/nav.php')?>
-      <button title="Menu" class="header-link menu-toggle mobile-only">
+      <button title="Menu" class="header-link menu-toggle">
         <?php require ($_SERVER['IL'].'img/icon/menu.svg')?>
       </button>
     </li>

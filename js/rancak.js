@@ -32,11 +32,11 @@ function all_scroll(){
     var scroll_position = $(window).scrollTop();
 
     if(scroll_position >= 1){
-      $('#btt').css("display","flex");	
+      $('header').addClass('header-sticky');	
     }
 
     else{
-      $('#btt').hide();
+      $('header').removeClass('header-sticky');	
     }
   });  
 }
