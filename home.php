@@ -32,6 +32,28 @@
 
 
 
+<section aria-label="Prime" class="section-container section-dark section-home-prime">
+  <span class="width-max">
+    <?php 
+      $prime_array = array();
+      $prime_array[]=array('prime_icon'=>'reputable','prime_label'=>'Reputable');
+      $prime_array[]=array('prime_icon'=>'commited','prime_label'=>'Commited');
+      $prime_array[]=array('prime_icon'=>'solving','prime_label'=>'Problem Solving');
+      $prime_array[]=array('prime_icon'=>'effective','prime_label'=>'Cost Effective');
+      foreach($prime_array as $prime_list){
+    ?>
+	  <div class="shp-box">
+	    <div class="shp-container">
+		  <?php require ($_SERVER['IL'].'img/icon/prime-'. $prime_list['prime_icon'] .'.svg')?>
+		  <h3 class="shp-label"><?php echo($prime_list['prime_label'])?></h3>
+		</div>
+	  </div>
+    <?php } ?>
+  </span>
+</section>
+
+
+
 </div>
 <?php require ($_SERVER['IL'].'inc/footer.php')?>
 <?php require ($_SERVER['IL'].'inc/base-bottom.php')?>
