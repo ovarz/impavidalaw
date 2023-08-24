@@ -25,7 +25,7 @@
 		  img/intro-trio-large.png 1920w"
 		/>
 	  </div>
-	  <div class="shi-prime">
+	  <div class="primelist">
 		<?php 
 		  $prime_array = array();
 		  $prime_array[]=array('prime_icon'=>'reputable','prime_label'=>'Reputable');
@@ -34,10 +34,10 @@
 		  $prime_array[]=array('prime_icon'=>'effective','prime_label'=>'Cost Effective');
 		  foreach($prime_array as $prime_list){
 		?>
-		  <div class="shi-prime-box">
-			<div class="shi-prime-container">
+		  <div class="primelist-box">
+			<div class="primelist-container">
 			  <?php require ($_SERVER['IL'].'img/icon/prime-'. $prime_list['prime_icon'] .'.svg')?>
-			  <h2 class="shi-prime-label"><?php echo($prime_list['prime_label'])?></h2>
+			  <h2 class="primelist-label"><?php echo($prime_list['prime_label'])?></h2>
 			</div>
 		  </div>
 		<?php } ?>
@@ -71,6 +71,10 @@
 	</div>
   </span>
 </section>
+
+
+
+<?php $visi_bg="yes"; require ($_SERVER['IL'].'module/visi-misi.php')?>
 
 
 

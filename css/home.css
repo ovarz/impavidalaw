@@ -6,12 +6,6 @@
 .shi-image-container{width:100%;}
 .shi-image-container img{position:relative; width:100%; max-width:1024px; height:auto;}
 
-.shi-prime{display:grid; overflow:hidden;}
-.shi-prime-box{position:relative; height:var(--prime-box-height);}
-.shi-prime-container{position:absolute; top:0; left:0; width:100%; height:100%; display:flex; flex-wrap:wrap; align-items:center; align-content:center; justify-content:center;}
-.shi-prime-container .svgicon{width:100%;}
-.shi-prime-label{text-align:center; width:100%; margin-top:var(--size-3);}
-
 
 
 .section-home-about{--image-width:480px; z-index:2000;}
@@ -28,10 +22,7 @@
 
 
 
-@media screen and (min-width:0px) and (max-width:639px){
-  .shi-prime{grid-template-columns:repeat(2,1fr); margin-bottom:calc((var(--prime-box-height) / 1) * -1);}
-  .shi-prime-box:nth-child(2), .shi-prime-box:nth-child(3){background-color:var(--color-default-4);}
-  
+@media screen and (min-width:0px) and (max-width:639px){  
   .section-home-about{padding-top:calc(var(--prime-box-height) + var(--size-6));}
   .sha-action{display:grid;}
   .sha-button{margin-bottom:var(--size-3);}
@@ -39,14 +30,15 @@
 
 
 
-@media screen and (min-width:640px){
-  .shi-prime{grid-template-columns:repeat(4,1fr); margin-bottom:calc((var(--prime-box-height) / 2) * -1);}
-  .shi-prime-box:nth-child(even){background-color:var(--color-default-4);}
-  
+
+
+@media screen and (min-width:640px){  
   .section-home-about{padding-top:calc((var(--prime-box-height) / 2) + var(--size-6));}
   .sha-action{display:flex;}
   .sha-button{margin-right:var(--size-4);}
 }
+
+
 
 
 
@@ -55,9 +47,11 @@
   
   .shi-title{font-size:4rem;}
   .shi-subtitle{font-size:1.5rem;}
-  .shi-prime-container .svgicon{height:var(--size-6);}
-  .shi-prime-label{font-size:0.9rem;}
+  .primelist-container .svgicon{height:var(--size-6);}
+  .primelist-label{font-size:0.9rem;}
 }
+
+
 
 
 
@@ -66,7 +60,7 @@
   
   .shi-title{font-size:5rem;}
   .shi-subtitle{font-size:2rem;}
-  .shi-prime-label{font-size:1.3rem;}
+  .primelist-label{font-size:1.3rem;}
   
   .section-home-about > .width-max{grid-template-columns:var(--image-width) 1fr;}
   .sha-label{margin-top:var(--size-4);}
