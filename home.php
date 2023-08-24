@@ -38,7 +38,7 @@
 		  <div class="shi-prime-box">
 			<div class="shi-prime-container">
 			  <?php require ($_SERVER['IL'].'img/icon/prime-'. $prime_list['prime_icon'] .'.svg')?>
-			  <h3 class="shi-prime-label"><?php echo($prime_list['prime_label'])?></h3>
+			  <h2 class="shi-prime-label"><?php echo($prime_list['prime_label'])?></h2>
 			</div>
 		  </div>
 		<?php } ?>
@@ -51,7 +51,16 @@
 
 <section aria-label="Prime" class="section-container section-home-about">
   <span class="width-max">
-    tes
+    <div class="sha-left">
+	  <div class="sha-image flex_ori thumb-loading">
+	    <img alt="About Us" class="lazyload" data-original="img/about-home.png"/>
+	  </div>
+	</div>
+	<div class="sha-right">
+	  <h2 class="sha-label">About Us</h2>
+	  <h3 class="sha-title">Best Advisory Right Into You</h3>
+	  <h4 class="sha-desc">Impavida Advocates & Legal Consultants (“Impavida”) is a dynamic and modern law firm established by legal practitioners which have strong litigation and dispute resolution expertise. The founding partners are groomed and trained by one of the most notable litigation law firms in Indonesia and have combined experience of over 15 years. Offering practical legal advice, with accuracy is the motto that drives the firm to skilfully make inroads into the rapidly changing legal landscape. A distinguishing attribute of the firm is its dedication to provide value adding, solution-oriented service to its clients.</h4>
+	</div>
   </span>
 </section>
 
