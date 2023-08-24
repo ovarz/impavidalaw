@@ -1,8 +1,7 @@
-<?php require ('inc/base.php')?>
+<?php $menu_curr="home"; require ('inc/base.php')?>
 <?php require ($_SERVER['IL'].'inc/meta.php')?>
 <?php require ($_SERVER['IL'].'inc/sample.php')?>
-<?php $menu_curr="home"; require ($_SERVER['IL'].'inc/header.php')?>
-<style><?php require ($_SERVER['IL'].'css/home.css')?></style>
+<?php require ($_SERVER['IL'].'inc/header.php')?>
 <div class="rancak-container">
 
 
@@ -49,7 +48,7 @@
 
 
 
-<section aria-label="Prime" class="section-container section-home-about">
+<section aria-label="About Us" class="section-container section-home-about">
   <span class="width-max">
     <div class="sha-left">
 	  <div class="sha-image flex_ori thumb-loading">
@@ -60,6 +59,15 @@
 	  <h2 class="sha-label">About Us</h2>
 	  <h3 class="sha-title">Best Advisory Right Into You</h3>
 	  <h4 class="sha-desc">Impavida Advocates & Legal Consultants (“Impavida”) is a dynamic and modern law firm established by legal practitioners which have strong litigation and dispute resolution expertise. The founding partners are groomed and trained by one of the most notable litigation law firms in Indonesia and have combined experience of over 15 years. Offering practical legal advice, with accuracy is the motto that drives the firm to skilfully make inroads into the rapidly changing legal landscape. A distinguishing attribute of the firm is its dedication to provide value adding, solution-oriented service to its clients.</h4>
+	  <div class="sha-action">
+	    <a aria-label="Consult Now" alt="Consult Now" class="btn btn-red sha-button" href="https://api.whatsapp.com/send?phone=62800000000000" target="_blank">
+		  <?php require ($_SERVER['IL'].'img/icon/whatsapp-outline.svg')?>
+		  <span class="sha-button-label">Consult Now</span>
+		</a>
+	    <a aria-label="More About Us" alt="More About Us" class="btn btn-blue sha-button" href="https://api.whatsapp.com/send?phone=62800000000000" target="_blank">
+		  <span class="sha-button-label">More About Us</span>
+		</a>
+	  </div>
 	</div>
   </span>
 </section>

@@ -25,7 +25,7 @@ body, html{font-family:'Rubik',sans-serif; font-size:var(--default-fontsize); fo
 -moz-osx-font-smoothing:grayscale; text-rendering:optimizeSpeed;}
 html{scroll-behavior:smooth; min-height:100vh; background-color:var(--bg-1);}
 body{overflow-x:hidden;}
-.btn, a.btn, button.btn{padding:var(--size-4); font-weight:normal; -webkit-appearance:none; text-transform:capitalize; 
+.btn, a.btn, button.btn{padding:var(--size-4) var(--size-5); font-weight:normal; -webkit-appearance:none; text-transform:capitalize; 
 display:flex; text-align:center; align-items:center; justify-content:center;}
 .rancak-popup{display:none;}
 .width-max{position:relative; width:100%; max-width:var(--site-container); margin:0 auto;}
@@ -61,7 +61,7 @@ header > .width-max{justify-content:space-between;}
 
 
 
-@media screen and (min-width:0px) and (max-width:567px){
+@media screen and (min-width:0px) and (max-width:639px){
   nav{display:none; position:absolute; top:var(--size-6); left:0; width:100%; background-color:var(--color-default-4);}
   nav.show-nav{display:block;}
   .menu-toggle{opacity:1 !important; padding-right:var(--size-4);}
@@ -71,7 +71,7 @@ header > .width-max{justify-content:space-between;}
 
 
 
-@media screen and (min-width:568px){
+@media screen and (min-width:640px){
   nav{display:flex !important;}
   nav .menu-link:last-child{padding-right:var(--size-4);}
   .menu-toggle{display:none !important; visibility:hidden; content-visibility:hidden;}

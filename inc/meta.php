@@ -69,6 +69,10 @@ $("body,html").bind("touchstart touchmove scroll mousedown DOMMouseScroll mousew
 
 <link rel="stylesheet" type="text/css" href="css/rancak.css?<?php echo $anticache; ?>"/>
 <link rel="stylesheet" type="text/css" href="css/rancak-desktop.css?<?php echo $anticache; ?>" media="(min-width:1024px)">
+<?php if($menu_curr == 'home') { ?>
+  <link rel="preload" as="style" href="css/home.css?<?php echo $anticache; ?>">
+  <link rel="stylesheet" type="text/css" href="css/home.css?<?php echo $anticache; ?>"/>
+<?php } ?>
 </head>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WN57CMWW00"></script>

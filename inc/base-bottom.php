@@ -6,6 +6,9 @@
 
 <noscript id="deferred-styles">
   <link rel="stylesheet" type="text/css" href="css/hold.css?<?php echo $anticache; ?>" media="print" onload="this.media='all'"/>
+  <?php if($menu_curr == 'home') { ?>
+    <link rel="stylesheet" type="text/css" href="css/home-hold.css?<?php echo $anticache; ?>" media="print" onload="this.media='all'"/>
+  <?php } ?>
 </noscript>
 <script defer>
   var loadDeferredStyles = function() {
