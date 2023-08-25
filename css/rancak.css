@@ -63,9 +63,10 @@ header > .width-max{justify-content:space-between;}
 .section-container{position:relative; padding:var(--size-7) 0;}
 .section-container > .width-max{display:block; z-index:5000;}
 .section-bg{position:absolute; z-index:1; top:0; left:0; width:100%; height:100%;}
-.title-primary, .title-secondary{font-family:'Poppins',sans-serif;}
+.title-primary, .title-secondary, .title-tertiary{font-family:'Poppins',sans-serif;}
 .title-primary{font-size:2.25rem; line-height:120%; font-weight:bold;}
-.title-secondary{font-size:1.3rem;}
+.title-secondary{font-size:1.3rem; line-height:150%; margin-bottom:var(--size-1);}
+.title-tertiary{line-height:160%; margin-top:var(--size-3);}
 
 
 
@@ -97,6 +98,15 @@ header > .width-max{justify-content:space-between;}
 
 
 
+.founderlist{display:grid; grid-gap:var(--size-4); grid-template-columns:repeat(auto-fit, minmax(210px,1fr)); margin-top:var(--size-5);}
+.founderlist-photo:before{padding-top:118.35%;}
+.founderlist-info{padding:var(--size-3);}
+.founderlist-info *{text-align:center;}
+.founderlist-name{font-weight:bold; font-size:1.3rem; line-height:150%; text-transform:capitalize;}
+.founderlist-title{font-weight:normal; margin:2px 0;}
+
+
+
 
 
 @media screen and (min-width:0px) and (max-width:639px){
@@ -110,6 +120,8 @@ header > .width-max{justify-content:space-between;}
   
   .saop-tab{display:grid; grid-template-columns:repeat(2,1fr);}
   button.saop-tab-button{padding:var(--size-4) 0;}
+  
+  .founderlist{grid-gap:var(--size-2); grid-template-columns:repeat(auto-fit, minmax(150px,1fr));}
 }
 
 

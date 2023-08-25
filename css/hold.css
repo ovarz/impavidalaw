@@ -53,9 +53,13 @@ header{background-color:var(--color-default-3);}
   --bg-2:#203049;
   --color-default-1:#EBEEF2;
   --color-default-3:#FFFFFF;
+  
+  background-color:var(--bg-2);
 }
+.section-dark .title-primary{color:var(--color-default-3);}
 .title-primary{color:var(--color-default-2);}
 .title-secondary{color:var(--color-default-4);}
+.title-tertiary{color:var(--color-default-1);}
 
 
 
@@ -80,6 +84,12 @@ button.saop-tab-button:hover{color:var(--bg-2);}
 
 .saop-box{background-color:var(--bg-2); color:var(--color-default-3); fill:var(--color-default-4);}
 .saop-box:hover{background-color:var(--color-default-3); color:var(--bg-2); fill:var(--bg-2);}
+
+
+
+.founderlist-box{background-color:var(--color-default-4); color:var(--bg-2) !important;}
+.founderlist-box:hover{background-color:var(--color-default-3);}
+.founderlist-title{color:var(--bg-1);}
 
 
 

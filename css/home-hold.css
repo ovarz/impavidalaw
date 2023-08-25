@@ -1,4 +1,3 @@
-.section-home-intro{background-color:var(--bg-2);}
 .section-home-intro .section-bg:after{background:linear-gradient(to bottom,var(--color-default-3) 0%,transparent 100%)}
 .shi-title{color:var(--color-default-3);}
 .shi-subtitle{color:var(--color-default-1);}
@@ -9,6 +8,13 @@
 
 
 .section-home-about{background-color:var(--bg-1);}
+
+
+
+.sht-head{max-width:610px; margin:0 auto;}
+.sht-head *{text-align:center;}
+.sht-head .title-primary{color:var(--bg-2);}
+.sht-head .title-tertiary{color:var(--bg-1);}
 
 
 
