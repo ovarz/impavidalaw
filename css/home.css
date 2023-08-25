@@ -12,8 +12,8 @@
 .section-home-about > .width-max{display:grid; grid-gap:var(--size-5);}
 .sha-image{width:100%; max-width:var(--image-width); margin:0 auto;}
 .sha-image:before{padding-top:100.36%;}
-.sha-label, .sha-desc{line-height:150%;}
-.sha-title{font-family:'Poppins',sans-serif; font-size:2.25rem; line-height:120%; font-weight:bold; margin-top:var(--size-1); margin-bottom:var(--size-4);}
+.sha-label, .sha-desc{line-height:160%;}
+.sha-title{margin-top:var(--size-1); margin-bottom:var(--size-4);}
 .sha-action{margin-top:var(--size-5);}
 .sha-button{display:flex;}
 .sha-button .svgicon{margin-right:var(--size-3);}

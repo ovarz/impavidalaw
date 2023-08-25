@@ -54,6 +54,8 @@ header{background-color:var(--color-default-3);}
   --color-default-1:#EBEEF2;
   --color-default-3:#FFFFFF;
 }
+.title-primary{color:var(--color-default-2);}
+.title-secondary{color:var(--color-default-4);}
 
 
 
@@ -65,6 +67,14 @@ header{background-color:var(--color-default-3);}
 .svm-mission{background-color:var(--bg-2);}
 .svm-title{color:var(--color-default-3);}
 .svm-desc{color:var(--color-default-1);}
+
+
+
+button.saop-tab-button{border-radius:0; background-color:var(--bg-2); color:var(--color-default-4); border:1px solid var(--color-default-4);}
+button.saop-tab-button[title="Litigation"]{border-top-left-radius:var(--rounded-1); border-bottom-left-radius:var(--rounded-1);}
+button.saop-tab-button[title="NonLitigation"]{border-top-right-radius:var(--rounded-1); border-bottom-right-radius:var(--rounded-1);}
+button.saop-tab-curr{background-color:var(--color-default-4); color:var(--bg-2);}
+button.saop-tab-button:hover{background-color:var(--color-default-1); color:var(--bg-2); border-color:var(--color-default-1);}
 
 
 

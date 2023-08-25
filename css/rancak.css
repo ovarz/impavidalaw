@@ -5,7 +5,7 @@
 :root, :before, :after{
   --site-container:1280px;
   --max-zindex:2147483648;
-  --default-fontsize:14px;
+  --default-fontsize:16px;
   --title-fontsize:2rem;
   --sidebar-width:300px;
   --size-1:0.357rem;
@@ -16,6 +16,14 @@
   --size-6:3.929rem;
   --size-7:6.357rem;
   --bg-1:#EBEEF2;
+}
+
+
+
+
+
+@media screen and (min-width:0px) and (max-width:374px){
+  :root, :before, :after{--default-fontsize:14px;}
 }
 
 
@@ -42,7 +50,7 @@ display:flex; text-align:center; align-items:center; justify-content:center;}
 header > .width-max, nav{display:flex;}
 header{position:-webkit-sticky; position:sticky; z-index:calc(var(--max-zindex) - 5000); top:0; left:0; width:100%;}
 header > .width-max{justify-content:space-between;}
-.header-link, .menu-link{display:flex; align-items:center; padding:0 var(--size-3); font-weight:bold;}
+.header-link, .menu-link{display:flex; align-items:center; padding:0 var(--size-2); font-weight:bold;}
 .impavida-logo{width:auto; height:64%;}
 
 .menu-link > span{display:block; position:relative;}
@@ -55,7 +63,9 @@ header > .width-max{justify-content:space-between;}
 .section-container{position:relative; padding:var(--size-7) 0;}
 .section-container > .width-max{display:block; z-index:5000;}
 .section-bg{position:absolute; z-index:1; top:0; left:0; width:100%; height:100%;}
-.section-title{font-family:'Poppins',sans-serif;}
+.title-primary, .title-secondary{font-family:'Poppins',sans-serif;}
+.title-primary{font-size:2.25rem; line-height:120%; font-weight:bold;}
+.title-secondary{font-size:1.3rem;}
 
 
 
@@ -73,6 +83,14 @@ header > .width-max{justify-content:space-between;}
 
 
 
+.saop-tab{margin:var(--size-4) 0;}
+.saop-label, .saop-title{text-align:center;}
+.saop-content{display:none; line-height:160%;}
+.saop-content#Litigation{display:block;}
+.saop-content p{text-align:center; margin-bottom:var(--size-4);}
+
+
+
 
 
 @media screen and (min-width:0px) and (max-width:639px){
@@ -83,6 +101,9 @@ header > .width-max{justify-content:space-between;}
   .menu-toggle-open{background-color:var(--color-default-4); padding-left:var(--size-4);}
   
   .primelist{grid-template-columns:repeat(2,1fr); margin-bottom:calc((var(--prime-box-height) / 1) * -1);}
+  
+  .saop-tab{display:grid; grid-template-columns:repeat(2,1fr);}
+  button.saop-tab-button{padding:var(--size-4) 0;}
 }
 
 
@@ -95,6 +116,9 @@ header > .width-max{justify-content:space-between;}
   .menu-toggle{display:none !important; visibility:hidden; content-visibility:hidden;}
   
   .primelist{grid-template-columns:repeat(4,1fr); margin-bottom:calc((var(--prime-box-height) / 2) * -1);}
+  
+  .saop-tab{display:flex; justify-content:center;}
+  .saop-tab-button{min-width:185px;}
 }
 
 

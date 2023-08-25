@@ -99,6 +99,18 @@ function close_share(){
 
 
 
+function toggle_saop_tab(){
+  $('.saop-tab-button').click(function(){
+    var get_tab = $(this).attr('title');
+    $(this).addClass('saop-tab-curr');
+	$('.saop-tab-button').not(this).removeClass('saop-tab-curr');
+    $('#' + get_tab).slideDown('fast');
+    $('.saop-content').not('#' + get_tab).slideUp('fast');
+  });
+}
+
+
+
 $(document).ready(function(){
   "use strict";
   all_scroll();
@@ -107,4 +119,5 @@ $(document).ready(function(){
   toggle_menu();
   close_menu();
   close_share();
+  toggle_saop_tab();
 });
