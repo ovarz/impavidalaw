@@ -78,6 +78,11 @@ button.saop-tab-button:hover{color:var(--bg-2);}
 
 
 
+.saop-box{background-color:var(--bg-2); color:var(--color-default-3); fill:var(--color-default-4);}
+.saop-box:hover{background-color:var(--color-default-3); color:var(--bg-2); fill:var(--bg-2);}
+
+
+
 
 
 @media screen and (max-width:639px){
