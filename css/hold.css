@@ -84,6 +84,26 @@ button.saop-tab-button:hover{color:var(--bg-2);}
 
 
 
+.rancak-popup, .rancak-popup-overlay, .rancak-popup-container{bottom:0; left:0; width:100%; height:100%;}
+.rancak-popup{position:fixed; z-index:calc(var(--max-zindex) - 4000);}
+.rancak-popup-overlay, .rancak-popup-container{position:absolute;}
+.rancak-popup-overlay{z-index:1; background-color:rgb(var(--color-border-dark) / 55%);}
+.rancak-popup-container, .rancak-popup-box{padding:var(--size-4);}
+.rancak-popup-container{flex-wrap:wrap; align-content:center;}
+.rancak-popup-box{position:relative; z-index:1000; width:100%; max-width:610px; max-height:calc(100vh - 130px); overflow-y:auto;
+background-color:var(--bg-2); box-shadow:var(--shadow-default);}
+.rancak-popup-bottom{width:100%; position:relative; z-index:2000; margin-top:var(--size-3);}
+button.rancak-popup-close{background-color:var(--color-default-4);}
+button.rancak-popup-close:hover{background-color:var(--color-default-3);}
+
+.popup-saop *{text-align:center;}
+.popup-saop .svgicon{fill:var(--color-default-4);}
+.popup-saop .saop-title{color:var(--color-default-3);}
+.popup-saop-right-box{line-height:160%;}
+
+
+
+
 
 @media screen and (max-width:639px){
   .menu-link:not(:first-child){border-top:1px dashed rgb(var(--color-border-light) / 34%);}

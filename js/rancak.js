@@ -22,7 +22,7 @@ function CopyLink(){
   copyText.select();
   copyText.setSelectionRange(0, 99999);
   document.execCommand("copy");
-  $('.popup-share-note').slideDown('fast');
+  $('.rancak-popup-note').slideDown('fast');
 }
 
 
@@ -56,7 +56,7 @@ function back_to_top(){
 
 function open_sticky(){
   $('.open-sticky').click(function(){
-    var get_id = $(this).attr('title');
+    var get_id = $(this).attr('aria-target');
 	$('.open-sticky[title=' + get_id +']').toggleClass('show-sticky');
 	$('.open-sticky').not('.open-sticky[title=' + get_id +']').removeClass('show-sticky');
     $('#popup-' + get_id).fadeToggle('fast');
@@ -91,7 +91,7 @@ function close_menu(){
 
 
 function close_share(){
-  $('.popup-share-overlay, .popup-share-close').click(function(){
+  $('.rancak-popup-overlay, .rancak-popup-close').click(function(){
 	ClosePopup();
 	return false;
   });
