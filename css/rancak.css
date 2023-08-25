@@ -33,7 +33,7 @@ body, html{font-family:'Rubik',sans-serif; font-size:var(--default-fontsize); fo
 -moz-osx-font-smoothing:grayscale; text-rendering:optimizeSpeed;}
 html{scroll-behavior:smooth; min-height:100vh; background-color:var(--bg-1);}
 body{overflow-x:hidden;}
-.btn, a.btn, button.btn{padding:var(--size-4) var(--size-5); font-weight:normal; -webkit-appearance:none; text-transform:capitalize; 
+.btn, a.btn, button.btn{padding:var(--size-4) var(--size-5); font-weight:bold; -webkit-appearance:none; text-transform:uppercase; 
 display:flex; text-align:center; align-items:center; justify-content:center;}
 .rancak-popup{display:none;}
 .width-max{position:relative; width:100%; max-width:var(--site-container); margin:0 auto;}
@@ -93,7 +93,7 @@ header > .width-max{justify-content:space-between;}
 .saop-box{display:flex; flex-wrap:wrap; align-content:space-between;}
 .saop-box *{width:100%; text-align:center;}
 .svgicon-saop{height:3rem;}
-.saop-title{font-weight:bold; font-family:'Poppins',sans-serif; font-size:1.3rem; line-height:160%; margin:var(--size-3) 0 var(--size-4);}
+.saop-list-title{font-weight:bold; font-family:'Poppins',sans-serif; font-size:1.3rem; line-height:160%; margin:var(--size-3) 0 var(--size-4);}
 
 
 

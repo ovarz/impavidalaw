@@ -110,7 +110,7 @@
           <button title="<?php echo($litigation_list['litigation_title'])?>" aria-target="<?php echo($litigation_list['litigation_id'])?>" class="open-sticky saop-box">
 		    <div class="saop-top">
 			  <?php require ($_SERVER['IL'].'img/icon/saop-'. $litigation_list['litigation_id'] .'.svg')?>
-			  <h2 class="saop-title"><?php echo($litigation_list['litigation_title'])?></h2>
+			  <h2 class="saop-list-title"><?php echo($litigation_list['litigation_title'])?></h2>
 			</div>
 			<div class="saop-bottom">
 			  <?php require ($_SERVER['IL'].'img/icon/saop-down.svg')?>
@@ -131,7 +131,7 @@
           <button title="<?php echo($litigation_list['litigation_title'])?>" aria-target="<?php echo($nonlitigation_list['litigation_id'])?>" class="open-sticky saop-box">
 		    <div class="saop-top">
 			  <?php require ($_SERVER['IL'].'img/icon/saop-'. $nonlitigation_list['litigation_id'] .'.svg')?>
-			  <h2 class="saop-title"><?php echo($nonlitigation_list['litigation_title'])?></h2>
+			  <h2 class="saop-list-title"><?php echo($nonlitigation_list['litigation_title'])?></h2>
 			</div>
 			<div class="saop-bottom">
 			  <?php require ($_SERVER['IL'].'img/icon/saop-down.svg')?>
@@ -154,7 +154,7 @@
 		  <div class="popup-saop-left">
 		    <div class="popup-saop-left-box">
               <?php require ($_SERVER['IL'].'img/icon/saop-'. $litigation_list['litigation_id'] .'.svg')?>
-              <h2 class="saop-title"><?php echo($litigation_list['litigation_title'])?></h2>
+              <h2 class="saop-list-title"><?php echo($litigation_list['litigation_title'])?></h2>
 			</div>
 		  </div>
 		  <div class="popup-saop-right">
@@ -182,7 +182,7 @@
 		  <div class="popup-saop-left">
 		    <div class="popup-saop-left-box">
               <?php require ($_SERVER['IL'].'img/icon/saop-'. $nonlitigation_list['litigation_id'] .'.svg')?>
-              <h2 class="saop-title"><?php echo($nonlitigation_list['litigation_title'])?></h2>
+              <h2 class="saop-list-title"><?php echo($nonlitigation_list['litigation_title'])?></h2>
 			</div>
 		  </div>
 		  <div class="popup-saop-right">

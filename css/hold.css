@@ -99,6 +99,7 @@ button.rancak-popup-close:hover{background-color:var(--color-default-3);}
 .popup-saop *{text-align:center;}
 .popup-saop .svgicon{fill:var(--color-default-4);}
 .popup-saop .saop-title{color:var(--color-default-3);}
+.popup-saop .saop-list-title{color:var(--color-default-3);}
 .popup-saop-right-box{line-height:160%;}
 
 
