@@ -74,7 +74,7 @@ button.saop-tab-button{border-radius:0; background-color:var(--bg-2); color:var(
 button.saop-tab-button[title="Litigation"]{border-top-left-radius:var(--rounded-1); border-bottom-left-radius:var(--rounded-1);}
 button.saop-tab-button[title="NonLitigation"]{border-top-right-radius:var(--rounded-1); border-bottom-right-radius:var(--rounded-1);}
 button.saop-tab-curr{background-color:var(--color-default-4); color:var(--bg-2);}
-button.saop-tab-button:hover{background-color:var(--color-default-1); color:var(--bg-2); border-color:var(--color-default-1);}
+button.saop-tab-button:hover{color:var(--bg-2);}
 
 
 
@@ -105,6 +105,8 @@ button.saop-tab-button:hover{background-color:var(--color-default-1); color:var(
 
 @media screen and (min-width:0px) and (max-width:1023px){
   .svm-box{padding:var(--size-4);}
+  
+  button.saop-tab-button:hover{background-color:var(--color-default-4); border-color:var(--color-default-4);}
 }
 
 
@@ -113,4 +115,6 @@ button.saop-tab-button:hover{background-color:var(--color-default-1); color:var(
 
 @media screen and (min-width:1024px){
   .svm-box{padding:var(--size-5);}
+  
+  button.saop-tab-button:hover{background-color:var(--color-default-1); border-color:var(--color-default-1);}
 }
