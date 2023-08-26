@@ -18,6 +18,15 @@
 
 
 
+.section-home-client{background-color:var(--bg-2);}
+.shc-head{max-width:610px; margin:0 auto;}
+.shc-head *{text-align:center;}
+.shc-list{display:flex; flex-wrap:wrap; justify-content:center; margin-top:var(--size-5);}
+.shc-box{margin:var(--size-4) var(--size-5);}
+.shc-box img{position:relative; width:auto; height:var(--size-6);}
+
+
+
 
 
 @media screen and (min-width:0px) and (max-width:639px){

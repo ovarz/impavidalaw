@@ -99,6 +99,35 @@
 
 
 
+<section aria-label="Our Team" class="section-container section-home-client">
+  <span class="width-max">
+    <div class="shc-head">
+      <h2 class="title-secondary">Everything Start With Trust</h2>
+      <h3 class="title-primary">Our Amazing Client</h3>
+      <h4 class="title-tertiary">Impavida practiced in the various legal aspects, such as litigation matters, and corporate area, we provide the following legal services:</h3>
+	</div>
+	<div class="shc-list">
+      <?php 
+        $client_array = array();
+        $client_array[]=array('client_id'=>'pertamina','client_name'=>'Pertamina PHE WMO');
+        $client_array[]=array('client_id'=>'mandiri','client_name'=>'Mandiri');
+        $client_array[]=array('client_id'=>'bomba','client_name'=>'Bomba Grup');
+        $client_array[]=array('client_id'=>'hanabank','client_name'=>'Hana Bank');
+        $client_array[]=array('client_id'=>'kresnasecurities','client_name'=>'Krena Securities');
+        $client_array[]=array('client_id'=>'kresnainsurance','client_name'=>'Kresna Life Insurance');
+        $client_array[]=array('client_id'=>'wanaarthalife','client_name'=>'Wanaartha Life');
+        foreach($client_array as $client_list){
+      ?>
+        <div class="shc-box flex_ori thumb-loading">
+          <img alt="<?php echo($client_list['client_name'])?>" class="lazyload" data-original="img/client-<?php echo($client_list['client_id'])?>.png"/>
+        </div>
+	  <?php } ?>
+	</div>
+  </span>
+</section>
+
+
+
 </div>
 <?php require ($_SERVER['IL'].'inc/footer.php')?>
 <?php require ($_SERVER['IL'].'inc/base-bottom.php')?>

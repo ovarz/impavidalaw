@@ -63,7 +63,7 @@ header > .width-max{justify-content:space-between;}
 .section-container{position:relative; padding:var(--size-7) 0;}
 .section-container > .width-max{display:block; z-index:5000;}
 .section-bg{position:absolute; z-index:1; top:0; left:0; width:100%; height:100%;}
-.title-primary, .title-secondary, .title-tertiary{font-family:'Poppins',sans-serif;}
+.title-primary, .title-secondary{font-family:'Poppins',sans-serif;}
 .title-primary{font-size:2.25rem; line-height:120%; font-weight:bold;}
 .title-secondary{font-size:1.3rem; line-height:150%; margin-bottom:var(--size-1);}
 .title-tertiary{line-height:160%; margin-top:var(--size-3);}
