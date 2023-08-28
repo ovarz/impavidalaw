@@ -97,6 +97,34 @@ button.saop-tab-button:hover{color:var(--bg-2);}
 
 
 
+.footer-top, .footer-bottom{color:var(--bg-1);}
+.footer-top{background-color:var(--color-default-3);}
+.footer-top-container{display:grid !important; grid-gap:var(--size-5);}
+.footer-logo{text-align:center;}
+.footer-logo .impavida-logo{width:100%; max-width:233px; height:auto; fill:var(--bg-2);}
+
+.footer-contact-direct{--icon-size:3rem; display:grid; grid-gap:var(--size-3);}
+.fcd-list{display:grid; grid-template-columns:var(--icon-size) 1fr; grid-gap:var(--size-3); color:var(--bg-2); fill:var(--bg-2); font-weight:bold;}
+.fcd-list:hover{color:var(--color-default-4);}
+.fcd-icon{width:100%; height:var(--icon-size); border-radius:50%; background-color:var(--color-default-4);}
+.fcd-right{display:flex; align-items:center;}
+
+.footer-contact{align-items:flex-start;}
+.footer-contact-socmed{margin-top:var(--size-5);}
+.fcs-list{display:grid; grid-template-columns:repeat(4,1fr); grid-gap:var(--size-3); margin-top:var(--size-3);}
+.fcs-button{width:var(--size-6); height:var(--size-6); background-color:var(--color-default-2); fill:var(--bg-2);}
+.fcs-button:hover{background-color:var(--color-default-4);}
+
+.footer-address-map:before{padding-top:56.25%;}
+.footer-address-map iframe{position:absolute; z-index:2; top:0; left:0; width:100%; height:100%; object-fit:cover;}
+.footer-address-detail{margin-top:var(--size-4); display:grid; grid-gap:var(--size-2); line-height:160%; color:var(--bg-1);}
+.footer-address-detail:hover{color:var(--color-default-4);}
+.fad-building{font-size:1.3rem;}
+
+.footer-bottom{padding:var(--size-4); background-color:var(--color-default-2);}
+
+
+
 
 .rancak-popup, .rancak-popup-overlay, .rancak-popup-container{bottom:0; left:0; width:100%; height:100%;}
 .rancak-popup{position:fixed; z-index:calc(var(--max-zindex) - 4000);}
@@ -147,6 +175,8 @@ button.rancak-popup-close:hover{background-color:var(--color-default-3);}
   .svm-box{padding:var(--size-4);}
   
   button.saop-tab-button:hover{background-color:var(--color-default-4); border-color:var(--color-default-4);}
+  
+  .footer-address *{text-align:center;}
 }
 
 
@@ -157,4 +187,6 @@ button.rancak-popup-close:hover{background-color:var(--color-default-3);}
   .svm-box{padding:var(--size-5);}
   
   button.saop-tab-button:hover{background-color:var(--color-default-1); border-color:var(--color-default-1);}
+  
+  .footer-top-container{grid-template-columns:233px 1fr 1fr;}
 }
