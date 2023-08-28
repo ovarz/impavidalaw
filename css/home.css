@@ -3,8 +3,8 @@
 .section-home-intro .section-bg:after{content:''; display:block; position:absolute; z-index:1000; top:0; left:0; width:100%; height:var(--size-6);}
 .shi-title{font-weight:bold; text-transform:uppercase;}
 .shi-subtitle{max-width:650px; margin:0 auto; margin-bottom:var(--size-4);}
-.shi-image-container{width:100%;}
-.shi-image-container img{position:relative; width:100%; max-width:1024px; height:auto;}
+.shi-image-container{width:100%; max-width:1024px; margin:0 auto;}
+.shi-image-container:before{padding-top:55.66%;}
 
 
 
