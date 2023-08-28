@@ -10,3 +10,5 @@ nav .menu-link:last-child{padding-right:var(--size-5);}
 
 .saop-list{grid-template-columns:repeat(3,1fr); grid-gap:var(--size-5);}
 .saop-box{padding:var(--size-5);}
+
+.articlelist{grid-template-columns:repeat(3,1fr); grid-gap:var(--size-4); margin-top:var(--size-5);}

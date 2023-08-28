@@ -1,6 +1,6 @@
 <?php $menu_curr="comingsoon"; require ('inc/base.php')?>
 <?php require ($_SERVER['IL'].'inc/meta.php')?>
-<?php require ($_SERVER['IL'].'inc/sample.php')?>
+<?php require ($_SERVER['IL'].'inc/data.php')?>
 
 
 

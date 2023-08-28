@@ -24,7 +24,7 @@ body, html{color:var(--color-default-1);}
 a, .btn, button{transition:var(--transition-default); cursor:pointer}
 a, button{color:var(--color-default-2); fill:var(--color-default-2);}
 a:hover, button:hover{color:var(--color-default-3); fill:var(--color-default-3);}
-.btn, a.btn, button.btn{background-color:var(--color-default-3); color:var(--bg-1); fill:var(--bg-1); border-radius:var(--rounded-1);}
+.btn, a.btn, button.btn{background-color:var(--color-default-3); color:var(--bg-1); fill:var(--bg-1);}
 .btn-red, a.btn-red, button.btn-red{background-color:var(--color-default-4);}
 .btn:hover, a.btn:hover, button.btn:hover{background-color:var(--color-default-1);}
 #btt{position:fixed; bottom:calc(var(--size-6) + var(--size-4)); right:0; cursor:pointer;
@@ -75,8 +75,6 @@ header{background-color:var(--color-default-3);}
 
 
 button.saop-tab-button{border-radius:0; background-color:var(--bg-2); color:var(--color-default-4); border:1px solid var(--color-default-4);}
-button.saop-tab-button[title="Litigation"]{border-top-left-radius:var(--rounded-1); border-bottom-left-radius:var(--rounded-1);}
-button.saop-tab-button[title="NonLitigation"]{border-top-right-radius:var(--rounded-1); border-bottom-right-radius:var(--rounded-1);}
 button.saop-tab-curr{background-color:var(--color-default-4); color:var(--bg-2);}
 button.saop-tab-button:hover{color:var(--bg-2);}
 
@@ -90,6 +88,12 @@ button.saop-tab-button:hover{color:var(--bg-2);}
 .founderlist-box{background-color:var(--color-default-4); color:var(--bg-2) !important;}
 .founderlist-box:hover{background-color:var(--color-default-3);}
 .founderlist-title{color:var(--bg-1);}
+
+
+
+.articlelist-box{background-color:var(--bg-2);}
+.articlelist-box:hover{background-color:var(--color-default-3); color:var(--bg-2);}
+.articlelist-date, .articlelist-more{color:var(--color-default-4);}
 
 
 
