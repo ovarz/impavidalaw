@@ -24,8 +24,8 @@ body, html{color:var(--color-default-1);}
 a, .btn, button{transition:var(--transition-default); cursor:pointer}
 a, button{color:var(--color-default-2); fill:var(--color-default-2);}
 a:hover, button:hover{color:var(--color-default-3); fill:var(--color-default-3);}
-.btn, a.btn, button.btn{background-color:var(--color-default-3); color:var(--bg-1); fill:var(--bg-1);}
-.btn-red, a.btn-red, button.btn-red{background-color:var(--color-default-4);}
+.btn, a.btn, button.btn{background-color:var(--color-default-4); color:var(--bg-1); fill:var(--bg-1);}
+.btn-blue, a.btn-blue, button.btn-blue{background-color:var(--color-default-3);}
 .btn:hover, a.btn:hover, button.btn:hover{background-color:var(--color-default-1);}
 #btt{position:fixed; bottom:calc(var(--size-6) + var(--size-4)); right:0; cursor:pointer;
 z-index:calc(var(--max-zindex) - 10000); width:40px; height:40px; background-color:var(--color-default-4); fill:var(--bg-2);

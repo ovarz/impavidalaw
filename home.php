@@ -139,9 +139,17 @@
       <?php foreach($hotarticle_array as $article_list){ ?>
 	    <?php require ($_SERVER['IL'].'module/article-list.php')?>
       <?php } ?>
-      <?php foreach($article_array as $article_list){ ?>
-	    <?php require ($_SERVER['IL'].'module/article-list.php')?>
-      <?php } ?>
+	  <!--
+      <php foreach($article_array as $article_list){ ?>
+	    <php require ($_SERVER['IL'].'module/article-list.php')?>
+      <php } ?>
+	  -->
+	</div>
+	<div class="section-gateway content_center">
+      <a aria-label="More Article" alt="More Article" class="btn" href="article/">
+        More Article
+      </a>
+	</div>
   </span>
 </section>
 

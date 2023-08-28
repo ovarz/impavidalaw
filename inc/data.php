@@ -46,4 +46,22 @@
     'article_desc'=>$random_desc[array_rand($random_desc)],
     'article_link'=>''
   );
+  $article_array[]=array(
+    'article_date'=>'30 September 2023',
+    'article_title'=>$random_title[array_rand($random_title)],
+    'article_desc'=>$random_desc[array_rand($random_desc)],
+    'article_link'=>''
+  );
+  $article_array[]=array(
+    'article_date'=>'30 September 2023',
+    'article_title'=>$random_title[array_rand($random_title)],
+    'article_desc'=>$random_desc[array_rand($random_desc)],
+    'article_link'=>''
+  );
+  $article_array[]=array(
+    'article_date'=>'30 September 2023',
+    'article_title'=>$random_title[array_rand($random_title)],
+    'article_desc'=>$random_desc[array_rand($random_desc)],
+    'article_link'=>''
+  );
 ?>
