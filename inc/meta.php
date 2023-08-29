@@ -68,7 +68,6 @@ $("body,html").bind("touchstart touchmove scroll mousedown DOMMouseScroll mousew
 </script>
 
 <link rel="stylesheet" type="text/css" href="css/rancak.css?<?php echo $anticache; ?>"/>
-<link rel="stylesheet" type="text/css" href="css/rancak-desktop.css?<?php echo $anticache; ?>" media="(min-width:1024px)">
 <?php if($menu_curr == 'home') { ?>
   <link rel="preload" href="img/intro-trio-small.png" as="image">
   <link rel="preload" href="img/intro-trio-medium.png" as="image">

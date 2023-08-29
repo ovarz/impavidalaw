@@ -6,7 +6,7 @@
 
 
 
-<section aria-label="Intro" class="section-container section-dark section-home-intro">
+<section aria-label="Intro" class="section-container section-home-intro">
   <div class="section-bg flex_ori thumb-loading">
     <img alt="Impavida Background" class="lazyload" data-original="img/intro-bg-small.jpg"
       data-srcset="img/intro-bg-small.jpg 567w,
@@ -76,26 +76,7 @@
 
 <?php $visi_bg="yes"; require ($_SERVER['IL'].'module/visi-misi.php')?>
 <?php require ($_SERVER['IL'].'module/areas-of-practice.php')?>
-
-
-
-<section aria-label="Our Team" class="section-container section-home-team">
-  <div class="section-bg flex_ori thumb-loading">
-    <img alt="Impavida Background" class="lazyload" data-original="img/team-bg-small.jpg"
-      data-srcset="img/team-bg-small.jpg 567w,
-      img/team-bg-medium.jpg 1023w,
-      img/team-bg-large.jpg 1920w"
-    />
-  </div>
-  <span class="width-max">
-    <div class="sht-head">
-      <h2 class="title-secondary">Know More Our Team</h2>
-      <h3 class="title-primary">Meet Our Attorneys</h3>
-      <h4 class="title-tertiary">Impavida practiced in the various legal aspects, such as litigation matters, and corporate area, we provide the following legal services:</h3>
-	</div>
-	<?php $show_founder="all"; require ($_SERVER['IL'].'module/founder-list.php')?>
-  </span>
-</section>
+<?php require ($_SERVER['IL'].'module/our-team.php')?>
 
 
 
@@ -132,7 +113,7 @@
   <span class="width-max">
     <div class="shc-head">
       <h2 class="title-secondary">We Share Knowledge</h2>
-      <h3 class="title-primary">Lates Article Post</h3>
+      <h3 class="title-primary">Latest Article Post</h3>
       <h4 class="title-tertiary">Impavida practiced in the various legal aspects, such as litigation matters, and corporate area, we provide the following legal services:</h3>
 	</div>
 	<div class="articlelist">

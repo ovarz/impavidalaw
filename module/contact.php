@@ -1,4 +1,4 @@
-<section aria-label="Contact Us" class="section-container section-contact">
+<section aria-label="Contact Us" class="section-container <?php if($menu_curr == 'contact') { ?>section-top<?php } ?> section-contact">
   <span class="width-max">
     <div class="section-contact-left">
 	  <div class="section-contact-image flex_ori thumb-loading">

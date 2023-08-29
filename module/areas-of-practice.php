@@ -90,7 +90,7 @@
 
 
 
-<section aria-label="Areas Of Practice" class="section-container section-areasofpractice">
+<section aria-label="Areas Of Practice" class="section-container <?php if($menu_curr == 'practice') { ?>section-top<?php } ?> section-areasofpractice">
   <span class="width-max">
     <h2 class="title-secondary saop-label">What We Are Expertise On</h2>
 	<h3 class="title-primary saop-title">Our Practice Areas</h3>
