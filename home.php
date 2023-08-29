@@ -155,6 +155,10 @@
 
 
 
+<?php require ($_SERVER['IL'].'module/contact.php')?>
+
+
+
 </div>
 <?php require ($_SERVER['IL'].'inc/footer.php')?>
 <?php require ($_SERVER['IL'].'inc/base-bottom.php')?>

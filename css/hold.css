@@ -97,6 +97,17 @@ button.saop-tab-button:hover{color:var(--bg-2);}
 
 
 
+.section-contact{--image-size:377px;}
+.section-contact .width-max{display:grid; grid-gap:var(--size-5);}
+.section-contact-box{margin-top:var(--size-5);}
+.section-contact-image{max-width:var(--image-size); margin:0 auto;}
+.section-contact-image:before{padding-top:143.87%;}
+.section-contact-box{display:grid; grid-gap:var(--size-4);}
+.scb-form{display:flex; align-items:center; width:100%; border:1px solid var(--color-border); background-color:var(--bg-2); padding:var(--size-3);}
+textarea.scb-form{min-height:144px;}
+
+
+
 .footer-top, .footer-bottom{color:var(--bg-1);}
 .footer-top{background-color:var(--color-default-3);}
 .footer-top-container{display:grid !important; grid-gap:var(--size-5);}
@@ -165,6 +176,10 @@ button.rancak-popup-close:hover{background-color:var(--color-default-3);}
   .menu-link{border-top:0 !important;}
 
   .primelist-box:nth-child(even){background-color:var(--color-default-4);}
+  
+  .section-contact .width-max{grid-template-columns:var(--image-size) 1fr;}
+  .section-contact-box{grid-template-columns:repeat(2,1fr);}
+  .scb-merge{grid-column:1/3;}
 }
 
 
