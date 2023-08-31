@@ -111,6 +111,29 @@ function toggle_saop_tab(){
 
 
 
+function sticky_maincolumn_right(){
+  "use strict";
+  var $window = $(window);
+  function checkWidth(){
+    var windowsize = $window.width();
+    if (windowsize > 1000){
+      $window.scroll(function(){
+		var sc = $window.scrollTop();
+        var right_container_height = $('.sds-sticky').outerHeight();
+		if(sc >= 0){
+          $('.sds-sticky').css({
+			'top':'calc(100% - ' + right_container_height + 'px)' //--section-space-normal
+          });
+		}
+      });
+    }
+  }
+  checkWidth();
+  //$(window).resize(checkWidth);
+}
+
+
+
 $(document).ready(function(){
   "use strict";
   all_scroll();
@@ -120,4 +143,5 @@ $(document).ready(function(){
   close_menu();
   close_share();
   toggle_saop_tab();
+  sticky_maincolumn_right();
 });

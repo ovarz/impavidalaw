@@ -1,0 +1,41 @@
+.detail-content{color:var(--color-default-2);}
+.detail-share{border-color:rgb(var(--color-border-dark) / 55%);}
+.dsl-button:hover{fill:var(--color-default-4);}
+
+
+
+.profile-name, .profile-title{color:var(--bg-2);}
+.profile-name{background-color:var(--color-default-4);}
+.profile-title{background-color:var(--color-default-3);}
+
+
+
+
+
+@media screen and (max-width:639px){
+  
+}
+
+
+
+
+
+@media screen and (min-width:640px){
+  
+}
+
+
+
+
+
+@media screen and (min-width:0px) and (max-width:1023px){
+  
+}
+
+
+
+
+
+@media screen and (min-width:1024px){
+  
+}

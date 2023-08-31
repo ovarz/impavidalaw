@@ -61,7 +61,7 @@
 	  <h4 class="sha-desc">Impavida Advocates & Legal Consultants (“Impavida”) is a dynamic and modern law firm established by legal practitioners which have strong litigation and dispute resolution expertise. The founding partners are groomed and trained by one of the most notable litigation law firms in Indonesia and have combined experience of over 15 years. Offering practical legal advice, with accuracy is the motto that drives the firm to skilfully make inroads into the rapidly changing legal landscape. A distinguishing attribute of the firm is its dedication to provide value adding, solution-oriented service to its clients.</h4>
 	  <div class="sha-action">
 	    <a aria-label="Consult Now" alt="Consult Now" class="btn btn-red sha-button" href="https://api.whatsapp.com/send?phone=62800000000000" target="_blank">
-		  <?php require ($_SERVER['IL'].'img/icon/whatsapp-outline.svg')?>
+		  <?php require ($_SERVER['IL'].'img/icon/socmed-whatsapp.svg')?>
 		  <span class="sha-button-label">Consult Now</span>
 		</a>
 	    <a aria-label="More About Us" alt="More About Us" class="btn btn-blue sha-button" href="team/">

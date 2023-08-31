@@ -74,6 +74,10 @@ $("body,html").bind("touchstart touchmove scroll mousedown DOMMouseScroll mousew
   <link rel="preload" as="style" href="css/home.css?<?php echo $anticache; ?>">
   <link rel="stylesheet" type="text/css" href="css/home.css?<?php echo $anticache; ?>"/>
 <?php } ?>
+<?php if($menu_curr == 'detail') { ?>
+  <link rel="preload" as="style" href="css/detail.css?<?php echo $anticache; ?>">
+  <link rel="stylesheet" type="text/css" href="css/detail.css?<?php echo $anticache; ?>"/>
+<?php } ?>
 </head>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WN57CMWW00"></script>
