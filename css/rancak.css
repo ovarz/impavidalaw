@@ -113,7 +113,7 @@ header > .width-max{justify-content:space-between;}
 
 
 .founderlist{display:grid; grid-gap:var(--size-4); grid-template-columns:repeat(auto-fit, minmax(210px,1fr)); margin-top:var(--size-5);}
-.founderlist-photo:before{padding-top:118.25%;}
+.founderlist-photo:before{padding-top:118%;}
 .founderlist-info{padding:var(--size-3);}
 .founderlist-info *{text-align:center;}
 .founderlist-name{font-weight:bold; font-size:1.3rem; line-height:150%; text-transform:capitalize;}

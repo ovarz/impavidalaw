@@ -15,7 +15,7 @@
       </div>
     </div>
     <div class="rancak-popup-bottom content_center">
-      <button title="Close Popup" class="btn rancak-popup-close">Tutup Popup</button>
+      <button title="Close Popup" class="rancak-popup-close"><?php require ($_SERVER['IL'].'img/icon/close.svg')?></button>
     </div>
   </div>
 </div>

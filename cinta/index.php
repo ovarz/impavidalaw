@@ -1,4 +1,10 @@
-<?php $menu_curr="detail"; require ('../inc/base.php')?>
+<?php 
+  $menu_curr="detail"; 
+  $page_url='cinta';
+  $page_title="Cinta Indah K. Pratami Trisulo, S.H.";
+  $page_desc="Cinta is the founding partner of Impavida. After graduating from the Faculty of Law of University Pelita Harapan, Cinta started her lawyering career as a lawyer in a law firm that is ranked as a top-tier firm in many practice areas by Legal 500, Chambers Asia, IFLR, and AsiaLaw.";
+  require ('../inc/base.php')
+?>
 <?php require ($_SERVER['IL'].'inc/meta.php')?>
 <?php require ($_SERVER['IL'].'inc/data.php')?>
 <?php require ($_SERVER['IL'].'inc/header.php')?>
@@ -38,41 +44,14 @@
 		</ul>
 	  </main>
 	  
-      <?php 
-        $dsl_array[]=array(
-          'dsl_icon'=>'whatsapp',
-          'dsl_label'=>'Share Whatsapp',
-          'dsl_link'=>'https://api.whatsapp.com/send?text=Cinta Indah K. Pratami Trisulo, S.H. https://www.impavidalaw.com/cinta',
-        );
-        $dsl_array[]=array(
-          'dsl_icon'=>'twitter',
-          'dsl_label'=>'Share Twitter',
-          'dsl_link'=>'https://twitter.com/intent/tweet?text=Cinta Indah K. Pratami Trisulo, S.H. https://www.impavidalaw.com/cinta',
-        );
-        $dsl_array[]=array(
-          'dsl_icon'=>'facebook',
-          'dsl_label'=>'Share Facebook',
-          'dsl_link'=>'https://www.facebook.com/sharer/sharer.php?u=https://www.impavidalaw.com/cinta',
-        );
-        $dsl_array[]=array(
-          'dsl_icon'=>'linkedin',
-          'dsl_label'=>'Share Linkedin',
-          'dsl_link'=>'https://www.linkedin.com/sharing/share-offsite/?url=https://www.impavidalaw.com/cinta',
-        );
-		
-		require ($_SERVER['IL'].'module/share-list.php')
-      ?>
+      <?php require ($_SERVER['IL'].'module/share-list.php') ?>
 	</div>
 	
 	
 	
 	<div class="section-detail-small">
 	  <div class="sds-container sds-sticky">
-	    <?php
-		  $profile_name='Cinta Indah K. Pratami Trisulo, S.H.';
-		  $profile_photo='cinta';
-		  require ($_SERVER['IL'].'module/profile-box.php')
-		?>
+	    <?php $profile_title="Founding Partner"; require ($_SERVER['IL'].'module/profile-box.php') ?>
 	  </div>
 	</div>
   </span>
@@ -83,7 +62,7 @@
 <section aria-label="Related Biography" class="section-container section-other-profile">
   <span class="width-max">
     <div class="sop-title">Related Biography May You Like</div>
-	<?php $show_founder="cinta"; require ($_SERVER['IL'].'module/founder-list.php')?>
+	<?php $show_founder=$page_url; require ($_SERVER['IL'].'module/founder-list.php')?>
   </span>
 </section>
 

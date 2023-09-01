@@ -48,10 +48,6 @@
 		  all_spc[i].value = "232401385490048-232401385490048";
 		}
 	  </script>
-	  <script type="text/javascript">JotForm.ownerView=true;</script>
-	  <script src="https://cdn.jotfor.ms//js/vendor/smoothscroll.min.js?v=3.3.44862"></script>
-	  <script src="https://cdn.jotfor.ms//js/errorNavigation.js?v=3.3.44862"></script>
-	  <script type="text/javascript">JotForm.isNewSACL=true;</script>
 	</div>
   </span>
 </section>

@@ -22,7 +22,7 @@
 
 
 
-.profile-photo:before{padding-top:118.25%;}
+.profile-photo:before{padding-top:118%;}
 .profile-name, .profile-title{text-align:center;}
 .profile-name{padding:var(--size-4); font-size:1.25rem; text-transform:uppercase; font-weight:bold; line-height:150%;}
 .profile-title{padding:var(--size-3) var(--size-4);}
