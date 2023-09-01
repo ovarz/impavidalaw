@@ -136,6 +136,7 @@ button.saop-tab-button:hover{color:var(--bg-2);}
 .footer-address-detail{margin-top:var(--size-4); display:grid; grid-gap:var(--size-2); line-height:160%; color:var(--bg-1);}
 .footer-address-detail:hover{color:var(--color-default-4);}
 .fad-building{font-size:1.3rem;}
+.fad-building sup{font-size:0.85rem;}
 
 .footer-bottom{padding:var(--size-4); background-color:var(--color-default-2);}
 
@@ -151,13 +152,15 @@ button.saop-tab-button:hover{color:var(--bg-2);}
 .rancak-popup-box{position:relative; z-index:1000; width:100%; max-width:610px; max-height:calc(100vh - 130px); overflow-y:auto;
 background-color:var(--bg-2); box-shadow:var(--shadow-default);}
 .rancak-popup-bottom{width:100%; position:relative; z-index:2000; margin-top:var(--size-3);}
-button.rancak-popup-close{background-color:var(--color-default-4);}
+button.rancak-popup-close{background-color:var(--color-default-4); line-height:0; fill:var(--bg-2); 
+width:var(--size-6); height:var(--size-6); border-radius:50%;}
+button.rancak-popup-close .svgicon{width:auto; height:55%;}
 button.rancak-popup-close:hover{background-color:var(--color-default-3);}
 
 .popup-saop *{text-align:center;}
-.popup-saop .svgicon{fill:var(--color-default-4);}
 .popup-saop .saop-title{color:var(--color-default-3);}
 .popup-saop .saop-list-title{color:var(--color-default-3);}
+.popup-saop-left .svgicon{fill:var(--color-default-4);}
 .popup-saop-right-box{line-height:160%;}
 
 .popup-success *{text-align:center;}

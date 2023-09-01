@@ -89,7 +89,7 @@
 		  <iframe title="Impavida Map" class="lazyload" data-original="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.304775388189!2d106.807224775781!3d-6.223484960953751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f161de7ebfab%3A0xbeb5b81706f6e95f!2sImpavida%20Advocates%20%26%20Legal%20Consultants!5e0!3m2!1sen!2sid!4v1693245628219!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 		</div>
 		<a aria-label="Impavida Headquarter" title="Impavida Headquarter" class="footer-address-detail" href="https://www.google.com/maps?ll=-6.22349,106.8098&z=15&t=m&hl=en&gl=ID&mapclient=embed&cid=13742092247031540063" target="_blank">
-		  <b class="fad-building">One Pacific Place 15t Floor<br/> Sudirman Center Business District</b>
+		  <b class="fad-building">One Pacific Place 15<sup>th</sup> Floor<br/> Sudirman Center Business District</b>
 		  <div class="fad-info">Jalan Jenderal Sudirman Kav. 52-53<br/> Jakarta, Indonesia - 12190</div>
 		</a>
 	  </div>
