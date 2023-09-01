@@ -11,7 +11,7 @@
       <a aria-label="<?php echo($founder_list['founder_name'])?>" alt="<?php echo($founder_list['founder_name'])?>" class="founderlist-box" 
       href="<?php echo($founder_list['founder_id'])?>">
         <div class="founderlist-photo flex_ori thumb-loading">
-          <img alt="<?php echo($founder_list['founder_name'])?>" class="lazyload" data-original="img/founder-<?php echo($founder_list['founder_id'])?>.jpg"/>
+          <img alt="<?php echo($founder_list['founder_name'])?>" class="lazyload" data-original="img/photo-<?php echo($founder_list['founder_id'])?>.jpg"/>
         </div>
         <div class="founderlist-info">
           <h2 class="founderlist-name"><?php echo($founder_list['founder_id'])?></h2>
