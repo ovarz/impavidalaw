@@ -96,7 +96,7 @@
 	<h3 class="title-primary saop-title">Our Practice Areas</h3>
 	<div class="saop-tab">
 	  <button title="Litigation" class="btn saop-tab-button saop-tab-curr">Litigation</button>
-	  <button title="NonLitigation" class="btn saop-tab-button">Non Litigation</button>
+	  <button title="NonLitigation" class="btn saop-tab-button">Non-Litigation</button>
 	</div>
 	
 	
