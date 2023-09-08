@@ -27,8 +27,8 @@
               $fcd_array[]=array(
                 'fcd_icon'=>'mail',
                 'fcd_label'=>'Email Address',
-                'fcd_link'=>'mailto:info@impavidalaw.com',
-                'fcd_info'=>'info@impavidalaw.com',
+                'fcd_link'=>'mailto:cs@impavidalaw.com',
+                'fcd_info'=>'cs@impavidalaw.com',
 			  );
               foreach($fcd_array as $fcd_list){
             ?>
