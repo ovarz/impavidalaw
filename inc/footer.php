@@ -45,10 +45,11 @@
             <?php } ?>
           </div>
 		  
+		  <!--
 		  <div class="footer-contact-socmed">
 		    <div class="fcs-label">Find Us On Social Media</div>
 			<div class="fcs-list">
-              <?php 
+              ?php 
                 $fcs_array = array();
                 $fcs_array[]=array(
                   'fcs_icon'=>'linkedin',
@@ -72,13 +73,14 @@
                 );
                 foreach($fcs_array as $fcs_list){
               ?>
-			    <a aria-label="<?php echo($fcs_list['fcs_label'])?>" title="<?php echo($fcs_list['fcs_label'])?>" class="fcs-button content_center" target="_blank"
-				href="<?php echo($fcs_list['fcs_link'])?>">
-				  <?php require ($_SERVER['IL'].'img/icon/socmed-'. $fcs_list['fcs_icon'] .'.svg')?>
+			    <a aria-label="?php echo($fcs_list['fcs_label'])?>" title="?php echo($fcs_list['fcs_label'])?>" class="fcs-button content_center" target="_blank"
+				href="?php echo($fcs_list['fcs_link'])?>">
+				  ?php require ($_SERVER['IL'].'img/icon/socmed-'. $fcs_list['fcs_icon'] .'.svg')?>
 				</a>
-			  <?php } ?>
+			  ?php } ?>
 			</div>
 		  </div>
+		  -->
 		</span>
 	  </div>
 	  
