@@ -149,11 +149,11 @@ textarea.scb-form{min-height:144px;}
   body{--prime-box-height:140px;}
   
   .header-link, .menu-link{padding:0 var(--size-4);}
-  nav{display:none; position:absolute; top:var(--size-6); left:0; width:100%; background-color:var(--color-default-4);}
+  nav{display:none; position:absolute; top:var(--size-6); left:0; width:100%;}
   nav.show-nav{display:block;}
   .menu-toggle{opacity:1 !important; padding-right:var(--size-4);}
   .menu-toggle .svgicon{width:auto; height:var(--size-4);}
-  .menu-toggle-open{background-color:var(--color-default-4); padding-left:var(--size-4);}
+  .menu-toggle-open{padding-left:var(--size-4);}
   
   .primelist{grid-template-columns:repeat(2,1fr); grid-gap:var(--size-2);}
   

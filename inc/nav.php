@@ -4,7 +4,7 @@
     $kanal_array[]=array('kanal_icon'=>'home','kanal_name'=>'The Firm','kanal_link'=>'home.php');
     $kanal_array[]=array('kanal_icon'=>'team','kanal_name'=>'Team','kanal_link'=>'team');
     $kanal_array[]=array('kanal_icon'=>'practice','kanal_name'=>'Areas Of Practice','kanal_link'=>'areas-of-practice');
-    $kanal_array[]=array('kanal_icon'=>'article','kanal_name'=>'Article','kanal_link'=>'article');
+    //$kanal_array[]=array('kanal_icon'=>'article','kanal_name'=>'Article','kanal_link'=>'article');
     $kanal_array[]=array('kanal_icon'=>'contact','kanal_name'=>'Contact Us','kanal_link'=>'contact-us');
     foreach($kanal_array as $kanal_list){
   ?>

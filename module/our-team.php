@@ -10,7 +10,7 @@
     <div class="section-team-head">
       <h2 class="title-secondary">Know More Our Team</h2>
       <h3 class="title-primary">Meet Our Attorneys</h3>
-      <h4 class="title-tertiary">Impavida practiced in the various legal aspects, such as litigation matters, and corporate area, we provide the following legal services:</h3>
+      <!--<h4 class="title-tertiary">Impavida practiced in the various legal aspects, such as litigation matters, and corporate area, we provide the following legal services:</h4>-->
 	</div>
 	<?php $show_founder="all"; require ($_SERVER['IL'].'module/founder-list.php')?>
   </span>

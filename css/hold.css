@@ -170,9 +170,11 @@ button.rancak-popup-close:hover{background-color:var(--color-default-3);}
 
 
 @media screen and (max-width:639px){
-  .menu-link:not(:first-child){border-top:1px dashed rgb(var(--color-border-light) / 34%);}
-  .menu-curr{color:var(--color-default-2) !important; fill:var(--color-default-2) !important;}
+  nav{background-color:var(--color-default-2);}
+  .menu-link:not(:first-child){border-top:1px dashed rgb(var(--color-border-light) / 21%);}
+  .menu-curr{color:var(--color-default-4) !important; fill:var(--color-default-4) !important;}
   .menu-curr > span:before{background-color:var(--color-default-2) !important;}
+  .menu-toggle-open{background-color:var(--color-default-2);}
 
   .primelist-box:nth-child(2), .primelist-box:nth-child(3){background-color:var(--color-default-4);}
 }
