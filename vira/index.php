@@ -44,7 +44,7 @@
 	
 	<div class="section-detail-small">
 	  <div class="sds-container sds-sticky">
-	    <?php $profile_title="Associate"; require ($_SERVER['IL'].'module/profile-box.php') ?>
+	    <?php $profile_title="Associate"; $profile_email=""; require ($_SERVER['IL'].'module/profile-box.php') ?>
 	  </div>
 	</div>
   </span>

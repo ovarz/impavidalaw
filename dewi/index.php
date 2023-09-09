@@ -47,7 +47,7 @@
 	
 	<div class="section-detail-small">
 	  <div class="sds-container sds-sticky">
-	    <?php $profile_title="Founding Partner"; require ($_SERVER['IL'].'module/profile-box.php') ?>
+	    <?php $profile_title="Founding Partner"; $profile_email="dewivina@impavidalaw.com"; require ($_SERVER['IL'].'module/profile-box.php') ?>
 	  </div>
 	</div>
   </span>
