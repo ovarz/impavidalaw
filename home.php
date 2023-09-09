@@ -29,7 +29,7 @@
 		<?php 
 		  $prime_array = array();
 		  $prime_array[]=array('prime_icon'=>'reputable','prime_label'=>'Reputable');
-		  $prime_array[]=array('prime_icon'=>'commited','prime_label'=>'Commited');
+		  $prime_array[]=array('prime_icon'=>'commited','prime_label'=>'Committed');
 		  $prime_array[]=array('prime_icon'=>'solving','prime_label'=>'Problem Solving');
 		  $prime_array[]=array('prime_icon'=>'effective','prime_label'=>'Cost Effective');
 		  foreach($prime_array as $prime_list){
