@@ -1,7 +1,7 @@
 <header>
   <ul class="width-max">
     <li class="header-left">
-      <a aria-label="Back to Home" title="Back to Home" class="header-link menu-home" href="home.php">
+      <a aria-label="Back to Home" title="Back to Home" class="header-link menu-home" href="">
         <?php require ($_SERVER['IL'].'img/logo.svg')?>
       </a>
     </li>
