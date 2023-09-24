@@ -1,7 +1,10 @@
+@font-face{font-family:'Andada Pro';font-style:normal;font-weight:800;font-display:swap;src:url(../fonts/HhyEU5Qi9-SuOEhPe4LtKoVCuWGURPcg3DNJAr8bHr0.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+
+
 .section-home-intro{padding-bottom:0; padding-top:var(--size-4);}
 .section-home-intro *{font-family:'Poppins',sans-serif; text-align:center; line-height:130%;}
 .section-home-intro .section-bg:after{content:''; display:block; position:absolute; z-index:1000; top:0; left:0; width:100%; height:var(--size-6);}
-.shi-title{font-weight:bold; text-transform:uppercase;}
+.shi-title{font-weight:bold; text-transform:uppercase; font-family:'Andada Pro',serif;}
 .shi-subtitle{max-width:650px; margin:0 auto; margin-bottom:var(--size-4);}
 .shi-image-container{width:100%; max-width:1024px; margin:0 auto;}
 .shi-image-container:before{padding-top:55.66%;}
