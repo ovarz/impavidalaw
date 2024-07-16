@@ -135,7 +135,7 @@ button.saop-tab-button:hover{color:var(--bg-2);}
 .footer-address-map iframe{position:absolute; z-index:2; top:0; left:0; width:100%; height:100%; object-fit:cover;}
 .footer-address-detail{margin-top:var(--size-4); display:grid; grid-gap:var(--size-2); line-height:160%; color:var(--bg-1);}
 .footer-address-detail:hover{color:var(--color-default-4);}
-.fad-building{font-size:1.3rem;}
+.fad-building{font-size:1.3rem; line-height:140%; text-wrap:balance;}
 .fad-building sup{font-size:0.85rem;}
 
 .footer-bottom{padding:var(--size-4); background-color:var(--color-default-2);}

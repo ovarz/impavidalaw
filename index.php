@@ -90,17 +90,18 @@
 	<div class="shc-list">
       <?php 
         $client_array = array();
-        $client_array[]=array('client_id'=>'pertamina','client_name'=>'Pertamina PHE WMO');
-        $client_array[]=array('client_id'=>'mandiri','client_name'=>'Mandiri');
-        $client_array[]=array('client_id'=>'bomba','client_name'=>'Bomba Grup');
-        $client_array[]=array('client_id'=>'hanabank','client_name'=>'Hana Bank');
-        $client_array[]=array('client_id'=>'kresnasecurities','client_name'=>'Krena Securities');
-        $client_array[]=array('client_id'=>'kresnainsurance','client_name'=>'Kresna Life Insurance');
-        $client_array[]=array('client_id'=>'wanaarthalife','client_name'=>'Wanaartha Life');
+        $client_array[]=array('client_icon'=>'pertamina.png','client_name'=>'Pertamina PHE WMO');
+        $client_array[]=array('client_icon'=>'mandiri.png','client_name'=>'Mandiri');
+        $client_array[]=array('client_icon'=>'bomba.png','client_name'=>'Bomba Grup');
+        $client_array[]=array('client_icon'=>'hanabank.png','client_name'=>'Hana Bank');
+        $client_array[]=array('client_icon'=>'kresnasecurities.png','client_name'=>'Krena Securities');
+        $client_array[]=array('client_icon'=>'kresnainsurance.png','client_name'=>'Kresna Life Insurance');
+        $client_array[]=array('client_icon'=>'wanaarthalife.png','client_name'=>'Wanaartha Life');
+        $client_array[]=array('client_icon'=>'sany.svg','client_name'=>'Sany Perkasa');
         foreach($client_array as $client_list){
       ?>
         <div class="shc-box flex_ori thumb-loading">
-          <img alt="<?php echo($client_list['client_name'])?>" class="lazyload" data-original="img/client-<?php echo($client_list['client_id'])?>.png"/>
+          <img alt="<?php echo($client_list['client_name'])?>" class="lazyload" data-original="img/client-<?php echo($client_list['client_icon'])?>"/>
         </div>
 	  <?php } ?>
 	</div>
