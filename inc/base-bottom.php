@@ -22,6 +22,47 @@
 
 
 
+<div class="rancak-popup popup-announcement">
+  <div class="rancak-popup-overlay"></div>
+  <div class="rancak-popup-container content_center">
+    <div class="rancak-popup-box">
+      <div class="rancak-popup-content popup-announcement-content">
+        <h2>PENGUMUMAN RESMI</h2>
+		<h3>PENIPUAN DAN PEMALSUAN YANG MENGATASNAMAKAN IMPAVIDA ADVOCATES & LEGAL CONSULTANTS</h3>
+		<br/>
+        <p>Dengan ini kami sampaikan bahwa telah ditemukan adanya oknum yang tidak bertanggung jawab melakukan tindak pidana penipuan dan pemalsuan, penyalahgunaan foto dengan mengatasnamakan Impavida Advocates & Legal Consultants dalam berbagai bentuk komunikasi, termasuk namun tidak terbatas pada penawaran kerja sama, permintaan pembayaran, maupun transaksi lainnya.</p>
+		<br/>
+        <p>Kami menerima banyak email yang dikirimkan melalui alamat email resmi kami dari pihak-pihak yang menjadi korban penipuan oleh pihak yang mengatasnamakan Impavida Advocates & Legal Consultants serta menggunakan nama salah satu partner kami yaitu Nadya Helida, S.H., M.H. dan menggunakan logo dari Impavida Advocates & Legal Consultants dalam Surat Kuasa. Kami tegaskan bahwa hal-hal yang diuraikan di atas adalah bentuk PENIPUAN dan PEMALSUAN.</p>
+		<br/>
+        <p>Kami menegaskan bahwa:</p>
+        <ol>
+          <li>Impavida hanya melakukan komunikasi resmi melalui kanal yang terverifikasi, seperti website resmi <b>www.impavidalaw.com</b>, serta alamat email dengan domain <b>@impavidalaw.com</b></li>
+          <li>Kami tidak pernah meminta pembayaran atau informasi sensitif melalui saluran yang tidak resmi.</li>
+          <li>Setiap permintaan atau penawaran dari pihak yang mengatasnamakan Impavida Advocates & Legal Consultants tidak melalui nomor kontak yg tertera dalam <b>www.impavidalaw.com</b> BUKAN merupakan tanggung jawab kami.</li>
+        </ol>
+		<br/>
+        <p>Sehubungan dengan hal tersebut, kami mengimbau kepada seluruh klien, mitra, dan masyarakat umum untuk:</p>
+        <ul>
+          <li>Selalu memverifikasi setiap informasi yang mengatasnamakan Impavida Advocates & Legal Consultants</li>
+          <li>Tidak memberikan data pribadi atau melakukan transaksi tanpa konfirmasi melalui kanal resmi kami.</li>
+          <li>Melaporkan segala bentuk aktivitas mencurigakan kepada kami melalui email resmi kami <a href="mailto:cs@impavidalaw.com">cs@impavidalaw.com</a></li>
+        </ul>
+		<br/>
+        <p>Impavida Advocates & Legal Consultants tidak bertanggung jawab atas segala bentuk kerugian yang ditimbulkan akibat tindakan penipuan yang dilakukan oleh pihak tidak bertanggung jawab.</p>
+        <p>Kami mengucapkan terima kasih atas perhatian dan kerja samanya.</p>
+		<br/>
+        <p>Hormat kami,</p>
+        <p>Impavida Advocates & Legal Consultants</p>
+      </div>
+    </div>
+    <div class="rancak-popup-bottom content_center">
+      <button title="Close Popup" class="rancak-popup-close content_center"><?php require ($_SERVER['IL'].'img/icon/close.svg')?></button>
+    </div>
+  </div>
+</div>
+
+
+
 <noscript id="deferred-styles">
   <link rel="stylesheet" type="text/css" href="css/hold.css?<?php echo $anticache; ?>" media="print" onload="this.media='all'"/>
   <?php if($menu_curr == 'home') { ?>
