@@ -64,8 +64,8 @@
 
 @media screen and (min-width:1024px){
   .popup-announcement .rancak-popup-box::-webkit-scrollbar{width:7px;}
-  .popup-announcement .rancak-popup-box::-webkit-scrollbar-track, .popup-announcement .rancak-popup-box::-webkit-scrollbar-thumb{background:0;}
-  .popup-announcement .rancak-popup-box:hover::-webkit-scrollbar-thumb{background:hsl(var(--color-light) / 25%);}
-  .popup-announcement .rancak-popup-box::-webkit-scrollbar-thumb:hover{background:hsl(var(--color-light) / 35%);}
+  .popup-announcement .rancak-popup-box::-webkit-scrollbar-track, .popup-announcement .rancak-popup-box::-webkit-scrollbar-thumb{background:rgb(0 0 0 / 21%);}
+  .popup-announcement .rancak-popup-box:hover::-webkit-scrollbar-thumb{background:rgb(0 0 0 / 34%);}
+  .popup-announcement .rancak-popup-box::-webkit-scrollbar-thumb:hover{background:rgb(0 0 0 / 55%);}
 
 }
