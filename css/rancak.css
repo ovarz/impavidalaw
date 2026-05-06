@@ -238,6 +238,8 @@ textarea.scb-form{min-height:144px;}
 
   .saop-list{grid-template-columns:repeat(3,1fr); grid-gap:var(--size-5);}
   .saop-box{padding:var(--size-5);}
+  
+  .founderlist-box{width:100%; max-width:377pxx; margin:0 auto;}
 
   .articlelist{grid-template-columns:repeat(3,1fr); grid-gap:var(--size-4); margin-top:var(--size-5);}
   

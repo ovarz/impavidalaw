@@ -4,7 +4,7 @@
     $founder_array[]=array('founder_id'=>'cinta','founder_name'=>'Cinta Indah K. Pratami Trisulo, S.H.','founder_title'=>'Partner');
     $founder_array[]=array('founder_id'=>'nadya','founder_name'=>'','founder_title'=>'Partner');
     $founder_array[]=array('founder_id'=>'dewi','founder_name'=>'','founder_title'=>'Partner');
-    $founder_array[]=array('founder_id'=>'vira','founder_name'=>'','founder_title'=>'Associate');
+    //$founder_array[]=array('founder_id'=>'vira','founder_name'=>'','founder_title'=>'Associate');
     foreach($founder_array as $founder_list){
   ?>
     <?php if($founder_list['founder_id'] != $show_founder) { ?>
